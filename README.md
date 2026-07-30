@@ -57,10 +57,16 @@ World Leaks operates an **extortion‑as‑a‑service** model, focusing on data
 - **Exfiltration:** Before being stopped on 29 May, the attackers scraped a large cache of project documents dated from **2016 to mid‑2025**.
 - **No OT compromise:** The plant’s industrial control systems and reactor safety networks are physically air‑gapped. The breach stayed entirely within the contractor’s cloud environment.
 
-![Supply Chain Attack Path](assets/attack-path-diagram.png)  
-*Supply chain attack path — Reliance → Yotta Server → World Leaks → Dark Web. The OT air‑gap remained intact.*
+<br>
 
----
+<p align="center">
+  <img src="assets/Screenshot%20(10).png" width="850" alt="Supply Chain Attack Path Diagram">
+  <br>
+  <i>Supply chain attack path — Reliance → Yotta Server → World Leaks → Dark Web. The OT air‑gap remained intact.</i>
+</p>
+
+<br>
+
 
 ### Data Exposed
 | Category | Details |
@@ -89,7 +95,16 @@ These categories were confirmed by multiple media outlets. However, Reuters coul
 - The **seven‑week gap** between detection (29 May) and public disclosure (15 July) drew sharp criticism of India’s breach notification practices.
 - Although NPCIL emphasised the data had “no connection with nuclear safety and security,” the aggregation of blueprints, supplier lists, and meeting minutes creates a significant intelligence risk.
 
----
+
+<br>
+
+<p align="center">
+  <img src="assets/Screenshot%20(11).png" width="850" alt="2019 vs 2026 Comparison">
+  <br>
+  <i>Side‑by‑side comparison of the 2019 Dtrack malware incident and the 2026 World Leaks supply chain breach.</i>
+</p>
+
+<br>
 
 ## 🧠 Root Cause & Contributing Factors
 
@@ -139,22 +154,24 @@ These categories were confirmed by multiple media outlets. However, Reuters coul
 
 ---
 
+## 🖼️ Evidence & Screenshots
+
+<p align="center">
+  <img src="assets/Screenshot%20(12).png" width="800" alt="Screenshot 12"><br><br>
+  <img src="assets/Screenshot%20(15).png" width="800" alt="Screenshot 15"><br><br>
+  <img src="assets/Screenshot%20(16).png" width="800" alt="Screenshot 16"><br><br>
+  <img src="assets/Screenshot%20(17).png" width="800" alt="Screenshot 17"><br><br>
+  <img src="assets/Screenshot%202026-07-29%20193827.png" width="800" alt="Screenshot 2026"><br><br>
+  <img src="assets/images.jpg" width="800" alt="Images"><br><br>
+  <img src="assets/images%20(1).jpg" width="800" alt="Images 1">
+</p>
+
 ## 🏁 Conclusion
 
 The 2026 Kudankulam data leak is a textbook case of **supply chain risk materialising at a critical infrastructure site**. While the plant’s air‑gapped control networks held firm and the exposed data did not touch nuclear safety systems, the contractor’s cloud server became a digital back door for a financially motivated criminal group. This incident reinforces a fundamental security principle: an organisation’s security posture is only as strong as its weakest third‑party link.
 
 ### 💭 Personal Reflection
 As a cybersecurity learner, this case taught me that technical defences like air gaps must be paired with rigorous data governance and supplier oversight. The real challenge isn’t just keeping attackers out of the reactor — it’s ensuring that an engineering drawing sitting on a contractor’s server doesn’t end up on the dark web. This investigation deepened my understanding of how operational, legal, and communication failures can combine to turn a single server compromise into a national security concern.
-
----
-
-> 🖼️ **Screenshots (add to assets/ folder)**  
-> - Reuters headline: `assets/reuters-headline.png`  
-> - The Hindu editorial: `assets/thehindu-report.png`  
-> - NDTV report: `assets/ndtv-report.png`  
-
-![2019 vs 2026 Comparison](assets/2019-vs-2026-comparison.png)  
-*Side‑by‑side comparison of the 2019 Dtrack malware incident and the 2026 World Leaks supply chain breach.*
 
 ---
 
